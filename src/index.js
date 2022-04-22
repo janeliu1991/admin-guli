@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+/*
+ * @Descripttion: 
+ * @Author: jane
+ * @Date: 2022-04-21 17:30:14
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2022-04-22 10:42:34
+ */
 
-ReactDOM.render(<App />, document.getElementById('root'));
+/* 入口js */
+import React from 'react'
+import ReactDom from 'react-dom'
+// import 'antd/dist/antd.css' //安装按需打包的插件并配置好后无需引入样式
+import App from './App.js'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDom.render(<App />, document.getElementById('root'))
