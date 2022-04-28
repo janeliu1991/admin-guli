@@ -3,7 +3,7 @@
  * @Author: jane
  * @Date: 2022-04-22 14:14:28
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2022-04-22 14:41:12
+ * @LastEditTime: 2022-04-22 15:15:10
  */
 
 const CracoLessPlugin = require('craco-less')
@@ -40,7 +40,7 @@ module.exports = {
         {
             plugin: CracoLessPlugin,
             options: {
-                // 根据 less-loader 版本的不同会有不同的配置
+                // 根据 less-loader 版本的不同会有不同的配置，对源码中的less变量进行覆盖
                 lessLoaderOptions: {
                     lessOptions: {
                         modifyVars: {
